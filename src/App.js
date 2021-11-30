@@ -41,7 +41,7 @@ function App() {
         }
       </div>
       <footer>
-        <p style={{fontSize:'11px'}}>From Stavros with ❤️</p>
+        <p style={{fontSize:'11px'}}>From <a href="https://github.com/cgs23/">Stavros</a> with ❤️</p>
       </footer>
     </div>
   );
