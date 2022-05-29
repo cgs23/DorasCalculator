@@ -15,11 +15,11 @@ const EnterPricePrompt = ({getValue}) => {
     return (
         <div className='header'>
             <h2> Enter price per kilogram: </h2>
-            <input value={value || ''} 
-                className='type-1 price-input' 
-                type="number" 
-                name="input-price" 
-                id="inp" 
+            <input value={value || ''}
+                className='type-1 price-input'
+                type="number"
+                name="input-price"
+                id="inp"
                 placeholder="Price.."
                 step="any"
                 onChange={handleChange}

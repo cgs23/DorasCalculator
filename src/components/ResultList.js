@@ -1,32 +1,8 @@
 import Result from "./Result"
 import { useState } from "react";
+import { INITIAL_STATE } from "../constants/grams";
 
 const ResultList = ({value, showEuro, selectable}) => {
-
-    const INITIAL_STATE = [
-        50,
-        100,
-        150,
-        200,
-        250,
-        300,
-        400,
-        500,
-        600,
-        700,
-        750,
-        800,
-        900,
-        1000,
-        1500,
-        2000,
-        2500,
-        3000,
-        3500,
-        4000,
-        4500,
-        5000
-    ]
 
     const [gramList, setGramList] = useState(INITIAL_STATE);
 
